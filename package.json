@@ -42,5 +42,10 @@
     "postcss": "^8",
     "tailwindcss": "^4.1.7",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@clerk/nextjs": {
+      "next": "15.1.8"
+    }
   }
 }
